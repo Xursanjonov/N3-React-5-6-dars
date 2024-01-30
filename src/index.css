@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img { object-fit: contain; }
+ul, ol { list-style: none; }
+a { text-decoration: none; }
+a, button { cursor: pointer; }
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: white;
+  top: 0;
+  position: sticky;
+}
+.nav {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  padding: 1rem 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.4rem;
+}
+/* Header end */
+
+/* Home */
+.home {
+  width: 100%;
+  color: white;
+  display: flex;
+  align-items: center;
+  background-color: #0E2149;
+  justify-content: space-between;
+  padding: .6rem 9rem .6rem 10rem;
+}
+.list {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  font-size: 1.2rem;
+}
+.li {
+  color: white;
+}
+.search-div input {
+  border: 0;
+  width: 21.75rem;
+  height: 3.125rem;
+  font-size: 1.1rem;
+  padding: 0 2.4rem 0 2rem;
+  background-color: #253B6A;
+  font-family: "Times New Roman";
+  font-style: italic;
+  font-weight: 700;
+  line-height: 400;
+}
+.search-div i {
+  font-size: 1.4rem;
+  position: absolute;
+  margin: .8rem -2rem;
+}
+/* Home end */
+
+/* Chegirma */
+.chegirmalar {
+  width: 100%;
+  padding: 1rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.chegirma-card {
+  width: 250px;
+  padding: .4rem;
+  margin: 5rem auto;
+  border: .1rem solid rgb(187, 184, 184);
+}
+.chegirma-card h3, .p, .price-div {
+  margin: 0 .8rem;
+}
+.img {
+  padding: 10px;
+}
+.img img {
+  width: 100%;
+}
+.chegirma-card-btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.chegirma-card-btns button {
+  border: 0;
+  width: 7rem;
+  height: 2rem;
+  margin: .8rem .5rem .5rem;
+}
+.btn1 {
+  background-color: #0E2149;
+  color: #FFF;
+  font-family: "Times New Roman";
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%;
+}
+.btn2 {
+  background-color: #0E2149;
+  color: #FFF;
+  font-family: "Times New Roman";
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 130%;
+  background-color: #D5AF86;
+}
+/* Chegirma end */
+
+/* Footer */
+.footer {
+  width: 100%;
+  padding: 1rem;
+}
+.footer .top {
+  padding: 2.75rem 0 2.75rem 10rem;
+  display: grid;
+  justify-content: space-between;
+  gap: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+}
+.footer .top .footer-top_1 ,.footer-top_2, .footer-top_3, .footer-top_4 {
+  line-height: 1.5rem;
+}
+.footer .bottom {
+  padding: 1.8rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10rem;
+}
+.footer-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .6rem;
+}
+.footer-icons i {
+  width:  1.6rem;
+  height: 1.6rem;
+  /* font-size: 1.6rem; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: aqua;
+}
+.footer-icons .fa-1 {
+  color: white;
+  background-color: #3B5998;
+}
+.footer-icons .fa-2 {
+  color: white;
+  background-color: #4C6C91;
+}
+.footer-icons .fa-3 {
+  color: white;
+  background: linear-gradient(#9454D4, #E04380, #F89B4E);
+}
+/* Footer end */
+
+/* Error */
+.error-container {
+  width: 100%;
+  height: 10vh;
+  background-color: aqua;
+  text-align: center;
+  margin: 20rem auto;
+}
+.error-title {
+  font-size: 3rem;
+  color: red;
+  font-weight: 900;
+}
+/* Error end */
